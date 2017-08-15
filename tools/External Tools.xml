@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Create blob image" description="Creates the blob image for filesystem" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="dd" />
+      <option name="PARAMETERS" value="if=/dev/zero of=fs.img bs=1M count=100" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/desktop" />
+    </exec>
+  </tool>
+  <tool name="Make filesystem" description="Makes EXT3 filesistem in previous created blob image" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mke2fs" />
+      <option name="PARAMETERS" value="-t ext3 -F fs.img" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/desktop" />
+    </exec>
+  </tool>
+</toolSet>

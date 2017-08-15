@@ -1,0 +1,9 @@
+<application>
+  <component name="UISettings">
+    <option name="EDITOR_TAB_LIMIT" value="999" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="12" />
+  </component>
+</application>
