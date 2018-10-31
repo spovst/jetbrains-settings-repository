@@ -1,5 +1,6 @@
 #[[#ifndef]]# ${INCLUDE_GUARD}
 #[[#define]]# ${INCLUDE_GUARD}
+#[[#pragma]]# once
 
 ${NAMESPACES_OPEN}
 
