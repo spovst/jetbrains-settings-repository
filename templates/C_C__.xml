@@ -1,0 +1,29 @@
+<templateSet group="C/C++">
+  <template name="inc" value="#include &quot;$FILE$&quot;$END$" description="Include local file" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_C" value="true" />
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+  <template name="Inc" value="#include &lt;$FILE$&gt;$END$" description="Include global file" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_C" value="true" />
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+  <template name="igrd" value="#ifndef $INCLUDE_GUARD_NAME$&#10;#define $INCLUDE_GUARD_NAME$&#10;&#10;$END$&#10;&#10;#endif /* $INCLUDE_GUARD_NAME$ */" description="Generate include guard" toReformat="false" toShortenFQNames="true">
+    <variable name="INCLUDE_GUARD_NAME" expression="capitalizeAndUnderscore(fileName())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_C" value="true" />
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+  <template name="ns" value="namespace $NAME$ {&#10;  $END$&#10;} // namespace $NAME$" description="Namespace" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,19 @@
+<application>
+  <component name="CPPToolchains" version="2">
+    <toolchains detectedVersion="5">
+      <toolchain name="Default" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="Clang" customCCompilerPath="/usr/bin/clang" customCXXCompilerPath="/usr/bin/clang++" debuggerKind="BUNDLED_GDB" />
+    </toolchains>
+  </component>
+  <component name="CppNewDialogSettings">
+    <option name="addNewFilesToProject" value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="4.2.6" last-modified="1533846615000" />
+    </local-interpreter>
+  </component>
+  <component name="ValgrindSettings">
+    <option name="analysisOptions" value="--leak-check=full --leak-resolution=high --track-origins=yes --show-leak-kinds=all" />
+  </component>
+</application>
