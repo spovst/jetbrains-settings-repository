@@ -50,6 +50,9 @@
       <pair source="c" header="h" fileNamingConvention="NONE" />
     </extensions>
   </Objective-C-extensions>
+  <RsCodeStyleSettings>
+    <option name="PRESERVE_PUNCTUATION" value="true" />
+  </RsCodeStyleSettings>
   <codeStyleSettings language="ObjectiveC">
     <option name="BRACE_STYLE" value="2" />
     <option name="CLASS_BRACE_STYLE" value="2" />
