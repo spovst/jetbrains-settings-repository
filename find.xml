@@ -18,8 +18,8 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.h</mask>
     <mask>*.gyp</mask>
     <mask>*.cpp</mask>
+    <mask>*.h</mask>
   </component>
 </application>
