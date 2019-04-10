@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="hqt" type="ObjectiveC" />
+      <mapping pattern="NEWS" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
