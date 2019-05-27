@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping ext="hqt" type="ObjectiveC" />
       <mapping pattern="NEWS" type="PLAIN_TEXT" />
+      <mapping pattern="DOCUMENTATION" type="PLAIN_TEXT" />
+      <mapping pattern="IMPLEMENTATION-NOTES" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
