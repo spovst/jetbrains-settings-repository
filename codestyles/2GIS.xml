@@ -63,6 +63,22 @@
   </Objective-C>
   <Objective-C-extensions>
     <option name="TAG_PREFIX_OF_BLOCK_COMMENT" value="BACK_SLASH" />
+    <rules>
+      <rule entity="NAMESPACE" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="MACRO" visibility="ANY" specifier="ANY" prefix="" style="SCREAMING_SNAKE_CASE" suffix="" />
+      <rule entity="CLASS" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="ENUM" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="ENUMERATOR" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="TYPEDEF" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="UNION" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="MEMBER_FUNCTION" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+      <rule entity="MEMBER_FIELD" visibility="PROTECTED,PRIVATE" specifier="ANY" prefix="" style="SNAKE_CASE" suffix="_" />
+      <rule entity="MEMBER_FIELD" visibility="PUBLIC" specifier="ANY" prefix="" style="SNAKE_CASE" suffix="" />
+      <rule entity="GLOBAL_VARIABLE" visibility="ANY" specifier="ANY" prefix="" style="SNAKE_CASE" suffix="" />
+      <rule entity="PARAMETER" visibility="ANY" specifier="ANY" prefix="" style="SNAKE_CASE" suffix="" />
+      <rule entity="LOCAL_VARIABLE" visibility="ANY" specifier="ANY" prefix="" style="SNAKE_CASE" suffix="" />
+      <rule entity="GLOBAL_FUNCTION" visibility="ANY" specifier="ANY" prefix="" style="PASCAL_CASE" suffix="" />
+    </rules>
   </Objective-C-extensions>
   <RsCodeStyleSettings>
     <option name="PRESERVE_PUNCTUATION" value="true" />
