@@ -1237,6 +1237,7 @@
         <option value="UNIT_SPACE" />
         <option value="UNLIKELY_OPENING_PUNCTUATION" />
         <option value="UNNECESSARY_COMMA" />
+        <option value="UPPERCASE_SENTENCE_START" />
         <option value="UP_TO_DATA" />
         <option value="UR" />
         <option value="URINE_ANALYSIS" />
@@ -1376,7 +1377,6 @@
         <option value="RU_WORD_REPEAT" />
         <option value="SENTENCE_WHITESPACE" />
         <option value="Skazuem_sovmestnoje_dejstvije" />
-        <option value="UPPERCASE_SENTENCE_START" />
         <option value="Unify_PNN_NN_number" />
         <option value="Wrong_group_punct" />
         <option value="postscriptum" />
