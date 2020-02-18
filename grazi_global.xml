@@ -1044,6 +1044,7 @@
         <option value="ROLL_PLAYER" />
         <option value="ROUTE_OF_THE_PROBLEM" />
         <option value="RUSTIC_COUNTRY" />
+        <option value="RU_WORD_REPEAT" />
         <option value="SAFETY_DEPOSIT_BOX" />
         <option value="SAFE_HAVEN" />
         <option value="SAID_SAD" />
@@ -1374,7 +1375,6 @@
         <option value="ROST" />
         <option value="RU_DASH_RULE" />
         <option value="RU_UNPAIRED_BRACKETS" />
-        <option value="RU_WORD_REPEAT" />
         <option value="SENTENCE_WHITESPACE" />
         <option value="Skazuem_sovmestnoje_dejstvije" />
         <option value="Unify_PNN_NN_number" />
