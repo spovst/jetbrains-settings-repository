@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.cpp" />
+    <option name="FILE_MASK" value="*.qml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -18,7 +18,7 @@
     <mask>*.gyp*</mask>
     <mask>*.json</mask>
     <mask>*.h</mask>
-    <mask>*.qml</mask>
     <mask>*.cpp</mask>
+    <mask>*.qml</mask>
   </component>
 </application>
