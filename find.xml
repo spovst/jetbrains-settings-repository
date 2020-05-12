@@ -17,7 +17,7 @@
     <mask>*.gyp*</mask>
     <mask>*.json</mask>
     <mask>*.qml</mask>
-    <mask>*.h</mask>
     <mask>*.cpp</mask>
+    <mask>*.h</mask>
   </component>
 </application>
