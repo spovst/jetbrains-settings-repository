@@ -1,0 +1,13 @@
+<application>
+  <component name="MergeRequestIntegrationApplicationLevel">
+    <Item id="gitlab:CarRouting" providerId="gitlab" url="https://gitlab.2gis.ru/" login="" projectId="1195" version="v4" info="" ignoreSSLCertificateErrors="0" repository="" />
+    <Item id="gitlab:moses" providerId="gitlab" url="https://gitlab.2gis.ru" login="" projectId="951" version="v4" info="" ignoreSSLCertificateErrors="0" repository="" />
+    <Setting name="enable-request-cache" value="1" />
+    <Setting name="save-mr-filter-state" value="1" />
+    <Setting name="comments:group-comment-by-thread" value="0" />
+    <Setting name="comments:display-comments-in-diff-view" value="1" />
+    <Setting name="comments:show-add-comment-icons-in-diff-view-gutter" value="1" />
+    <Setting name="code-review:checkout-target-branch" value="1" />
+    <Setting name="code-review:max-diff-change-opened-automatically" value="10" />
+  </component>
+</application>
