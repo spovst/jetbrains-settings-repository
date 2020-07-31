@@ -23,6 +23,9 @@
     <option name="IS_DND_ENABLED" value="false" />
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
   <component name="OCCodeFoldingSettings">
     <option name="collapseNewLineBeforeLBrace" value="false" />
     <option name="collapseTemplateParamList" value="false" />
