@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '.../libraries/ctx/Projects'" />
-    <option name="defaultScopeName" value="Directory '.../libraries/ctx/Projects'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localRegularExpressions" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
@@ -10,7 +10,8 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '.../libraries/ctx/Projects'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.inl" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -25,5 +26,6 @@
     <mask>*.qml</mask>
     <mask>*.h</mask>
     <mask>*.cpp</mask>
+    <mask>*.inl</mask>
   </component>
 </application>
