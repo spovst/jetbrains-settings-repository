@@ -3,6 +3,8 @@
     <data-views>
       <sort-values>true</sort-values>
     </data-views>
-    <general />
+    <general>
+      <confirm-breakpoint-removal>true</confirm-breakpoint-removal>
+    </general>
   </component>
 </application>
