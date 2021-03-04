@@ -32,6 +32,10 @@
     <option name="COLLAPSE_TEMPLATE_PARAM_LIST" value="false" />
     <option name="COLLAPSE_NEW_LINE_BEFORE_LBRACE" value="false" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
     <option name="COLLAPSE_ENTITIES" value="false" />
