@@ -1,0 +1,9 @@
+<application>
+  <component name="CodeMiniMap">
+    <option name="cleanRenderStyle" value="true" />
+    <option name="currentLineColor" value="00A0F0" />
+    <option name="pixelsPerLine" value="3" />
+    <option name="width" value="135" />
+    <option name="widthLocked" value="true" />
+  </component>
+</application>

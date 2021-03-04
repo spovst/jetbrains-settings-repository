@@ -1,7 +1,9 @@
 <application>
   <component name="CPPToolchains" version="4">
     <toolchains detectedVersion="5">
-      <toolchain name="Default" toolSetKind="SYSTEM_UNIX_TOOLSET" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="clang" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/usr/bin/cmake" customCCompilerPath="clang" customCXXCompilerPath="clang++" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
+      <toolchain name="gcc" toolSetKind="SYSTEM_UNIX_TOOLSET" customCCompilerPath="gcc" customCXXCompilerPath="g++" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="gcc-10" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/usr/bin/cmake" customCCompilerPath="gcc-10" customCXXCompilerPath="g++-10" debuggerKind="BUNDLED_GDB" />
     </toolchains>
   </component>
 </application>
